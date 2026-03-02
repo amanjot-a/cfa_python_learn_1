@@ -22,8 +22,8 @@ stocks_names = ['Apple', 'Samsung', 'Alibaba', 'Novo Nordisk', 'Naspers']
 stock_prices = [142, 45, 12, 125, 30]
 
 len(stocks_names)
-for i in reversed(range(len(stocks_names))):
-    print(stocks_names[i], "stock price is:", stock_prices[i]) 
-
+for i in reversed(range(0, len(stocks_names), 2)):
+    print('Sr no. = {}'.format(i))
+    print('The price of {} is {} USD.'.format(stocks_names[i], stock_prices[i]))
 
 # HYEah cvjkdxhd
